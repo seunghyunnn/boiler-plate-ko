@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
     }, 
     email: {
         type: String,
-        trim: true, //½ºÆäÀÌ½º¸¦ ¾ø¾ÖÁÖ´Â ¿ªÇÒ 
+        trim: true, //ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ 
         unique : 1
     },
     password: {
@@ -19,8 +19,8 @@ const userSchema = mongoose.Schema({
         maxlength: 50
     },
     role: {
-        type: Number, //number°¡ 1ÀÌ¸é °ü¸®ÀÚ 0ÀÌ¸é ÀÏ¹Ý userÀÌ·± ½ÄÀ¸·Î
-        default:0 //ÁöÁ¤ÇÏÁö ¾ÊÀ¸¸é 0À» ÁÖ°Ú´Ù.
+        type: Number, //numberï¿½ï¿½ 1ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½Ì¸ï¿½ ï¿½Ï¹ï¿½ userï¿½Ì·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        default:0 //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ ï¿½Ö°Ú´ï¿½.
     },
     image: String,
     token: {
